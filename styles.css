@@ -146,11 +146,13 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #ff007a;
+    
+    
 }
 
 .loginimage {
     max-width: 100%;
-    height: auto;
+    height: 1auto;
     max-height: 400px;
     object-fit: cover;
 }
@@ -163,11 +165,13 @@ body {
     }
 
     .loginface {
-        padding: 20px;
+        padding: 0;
+        height: auto;
     }
 
     .loginimage {
         max-height: 200px;
+        object-fit: cover;
     }
 
     .form.login header {
